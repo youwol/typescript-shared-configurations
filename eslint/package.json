@@ -1,0 +1,20 @@
+{
+    "name": "@youwol/eslint-config",
+    "version": "0.0.1",
+    "main": "./eslint-config.js",
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.33.1",
+        "@typescript-eslint/parser": "^5.33.1",
+        "eslint": "8.22.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jest": "^26.8.4",
+        "eslint-plugin-tsdoc": "^0.2.16",
+        "eslint-plugin-unused-imports": "^2.0.0"
+    },
+    "scripts": {
+        "publish": "echo Publishing @youwol/eslint-config"
+    },
+    "stableVersion": "0.1.0-rc"
+}
