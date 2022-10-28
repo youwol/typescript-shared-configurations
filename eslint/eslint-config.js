@@ -25,7 +25,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['webpack.config.js', 'jest.config.js'],
+            files: ['webpack.config.js', 'jest.config.js', 'typedoc.js'],
             env: {
                 node: true,
             },
