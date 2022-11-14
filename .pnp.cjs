@@ -27,6 +27,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "@youwol/prettier-config",\
         "reference": "workspace:prettier"\
+      },\
+      {\
+        "name": "@youwol/tsconfig",\
+        "reference": "workspace:tsconfig"\
       }\
     ],\
     "enableTopLevelFallback": true,\
@@ -34,7 +38,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "fallbackExclusionList": [\
       ["@youwol/eslint-config", ["workspace:eslint"]],\
       ["@youwol/linters-config", ["workspace:."]],\
-      ["@youwol/prettier-config", ["workspace:prettier"]]\
+      ["@youwol/prettier-config", ["workspace:prettier"]],\
+      ["@youwol/tsconfig", ["workspace:tsconfig"]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -1744,6 +1749,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./prettier/",\
           "packageDependencies": [\
             ["@youwol/prettier-config", "workspace:prettier"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@youwol/tsconfig", [\
+        ["workspace:tsconfig", {\
+          "packageLocation": "./tsconfig/",\
+          "packageDependencies": [\
+            ["@youwol/tsconfig", "workspace:tsconfig"]\
           ],\
           "linkType": "SOFT"\
         }]\

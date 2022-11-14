@@ -1,0 +1,8 @@
+{
+    "name": "@youwol/tsconfig",
+    "description": "Base TSConfig for Youwol projects",
+    "version": "0.0.1",
+    "scripts": {
+        "publish": "npm publish --access public"
+    }
+}
