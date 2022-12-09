@@ -12,6 +12,15 @@ module.exports = {
         'prettier',
     ],
     rules: {
+        'no-unused-vars': [
+            'error',
+            {
+                vars: 'all',
+                varsIgnorePattern: '^_',
+                args: 'after-used',
+                argsIgnorePattern: '^_',
+            },
+        ],
         'eslint-comments/require-description': ['error'],
         'eslint-comments/no-unused-disable': ['error'],
         curly: ['error'],
