@@ -13,9 +13,7 @@ yarn add --dev @youwol/eslint-config
 ```json
 {
     "eslintConfig": {
-        "extends": [
-            "@youwol"
-        ]
+        "extends": ["@youwol"]
     }
 }
 ```
