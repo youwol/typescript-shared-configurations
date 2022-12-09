@@ -5,6 +5,9 @@ module.exports = {
         browser: true,
         es2020: true,
     },
+    parserOptions: {
+        ecmaVersion: 'latest',
+    },
     extends: [
         'eslint:recommended',
         'plugin:eslint-comments/recommended',
