@@ -7,7 +7,6 @@
         "prettier-plugin-properties": "^0.2.0"
     },
     "scripts": {
-        "publish": "echo Publishing @youwol/prettier-config && npm publish --access public"
-    },
-    "stableVersion": "0.1.0-rc"
+        "publish": "echo Publishing @youwol/prettier-config"
+    }
 }

@@ -1,8 +1,11 @@
 {
     "name": "@youwol/tsconfig",
-    "description": "Base TSConfig for Youwol projects",
     "version": "0.0.2",
+    "description": "Base TSConfig for Youwol projects",
     "scripts": {
-        "publish": "npm publish --access public"
+        "publish": "echo Publishing @youwol/prettier-config"
+    },
+    "peerDependencies": {
+        "typescript": "^4.7.4"
     }
 }

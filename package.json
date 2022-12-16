@@ -1,6 +1,6 @@
 {
     "name": "@youwol/linters-config",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "private": true,
     "license": "MIT",
     "packageManager": "yarn@3.2.2",
@@ -24,16 +24,25 @@
         "eslint-plugin-tsdoc": "^0.2.16",
         "eslint-plugin-unused-imports": "^2.0.0",
         "eslint-webpack-plugin": "3.2.0",
-        "jest": "^28.1.3",
         "prettier": "^2.7.1",
-        "prettier-plugin-properties": "^0.2.0",
-        "typescript": "^4.7.4"
+        "prettier-plugin-properties": "^0.2.0"
     },
     "prettier": {
         "semi": false,
         "singleQuote": true,
         "tabWidth": 4,
-        "trailingComma": "all"
+        "trailingComma": "all",
+        "overrides": [
+            {
+                "files": [
+                    "*.yaml",
+                    "*.yml"
+                ],
+                "options": {
+                    "tabWidth": 2
+                }
+            }
+        ]
     },
     "eslintConfig": {
         "root": true,
@@ -45,6 +54,9 @@
             "browser": true,
             "es2020": true
         },
+        "parserOptions": {
+            "ecmaVersion": "latest"
+        },
         "extends": [
             "eslint:recommended",
             "plugin:eslint-comments/recommended",
@@ -52,6 +64,15 @@
             "prettier"
         ],
         "rules": {
+            "no-unused-vars": [
+                "error",
+                {
+                    "vars": "all",
+                    "varsIgnorePattern": "^_",
+                    "args": "after-used",
+                    "argsIgnorePattern": "^_"
+                }
+            ],
             "eslint-comments/require-description": [
                 "error"
             ],
@@ -73,7 +94,8 @@
             {
                 "files": [
                     "webpack.config.js",
-                    "jest.config.js"
+                    "jest.config.js",
+                    "typedoc.js"
                 ],
                 "env": {
                     "node": true
@@ -103,7 +125,7 @@
                     "@typescript-eslint/no-unused-vars": "off",
                     "unused-imports/no-unused-imports": "error",
                     "unused-imports/no-unused-vars": [
-                        "warn",
+                        "error",
                         {
                             "vars": "all",
                             "varsIgnorePattern": "^_",
@@ -140,6 +162,5 @@
         ],
         "noInlineConfig": false,
         "reportUnusedDisableDirectives": true
-    },
-    "stableVersion": "0.1.0"
+    }
 }
