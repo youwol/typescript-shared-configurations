@@ -1,8 +1,10 @@
 import { YouwolJestPresetGlobals } from './types'
 
-
 const youwolJestPresetGlobals: YouwolJestPresetGlobals = {
-    debug: false, isCI: false, isGitHubActions: false, integrationUrl: '',
+    debug: false,
+    isCI: false,
+    isGitHubActions: false,
+    integrationUrl: '',
 }
 const reporters = ['default', 'jest-junit']
 
@@ -15,8 +17,9 @@ const githubActions = process.env['GITHUB_ACTIONS']
 const continuousIntegration = process.env['CI']
 const url_port = process.env['INTEGRATION_PY_YOUWOL_PORT'] ?? '2001'
 const url_host = process.env['INTEGRATION_PY_YOUWOL_HOST'] ?? 'localhost'
-const url_scheme = process.env['INTEGRATION_PY_YOUWOL_SECURE'] ? 'https' : 'http'
-
+const url_scheme = process.env['INTEGRATION_PY_YOUWOL_SECURE']
+    ? 'https'
+    : 'http'
 
 if (youwolJestPresetDebug) {
     youwolJestPresetGlobals.debug = true
@@ -32,7 +35,6 @@ if (youwolJestPresetDebug) {
 
 youwolJestPresetGlobals.integrationUrl = `${url_scheme}://${url_host}:${url_port}`
 debug(`Integration URL : ${youwolJestPresetGlobals.integrationUrl}`)
-
 
 if (githubActions) {
     youwolJestPresetGlobals.isGitHubActions = true
