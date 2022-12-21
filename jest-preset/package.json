@@ -1,6 +1,6 @@
 {
     "name": "@youwol/jest-preset",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "./jest-preset.js",
     "devDependencies": {
         "@tsconfig/node16": "^1.0.3",
