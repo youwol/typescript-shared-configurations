@@ -56,6 +56,7 @@ const jestPreset = {
     reporters,
     modulePathIgnorePatterns: ['/dist', '/yw_config', '.template'],
     testEnvironmentOptions: { url: youwolJestPresetGlobals.integrationUrl },
+    coverageProvider: 'v8',
     collectCoverageFrom: ['./src/lib/**/*.ts', './src/app/**/*.ts'],
     globals: {
         youwolJestPresetGlobals,
