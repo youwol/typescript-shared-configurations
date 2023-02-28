@@ -1,6 +1,6 @@
 {
     "name": "@youwol/tsconfig",
-    "version": "0.1.0-rc3",
+    "version": "0.1.0-rc5",
     "description": "Base TSConfig for Youwol projects",
     "dependencies": {
         "@tsconfig/node16": "^1.0.3",

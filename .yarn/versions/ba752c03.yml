@@ -1,0 +1,5 @@
+undecided:
+  - "@youwol/linters-config"
+  - "@youwol/eslint-config"
+  - "@youwol/jest-preset"
+  - "@youwol/prettier-config"

@@ -1,6 +1,6 @@
 {
     "name": "@youwol/jest-preset",
-    "version": "0.1.0-rc3",
+    "version": "0.1.0-rc5",
     "main": "./jest-preset.js",
     "scripts": {
         "build": "yarn pnpify tsc",
