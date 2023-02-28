@@ -1,6 +1,6 @@
 {
     "name": "@youwol/linters-config",
-    "version": "0.1.0-rc1",
+    "version": "0.1.0-rc2",
     "private": true,
     "license": "MIT",
     "packageManager": "yarn@3.2.2",

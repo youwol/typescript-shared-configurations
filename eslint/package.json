@@ -1,6 +1,6 @@
 {
     "name": "@youwol/eslint-config",
-    "version": "0.1.0-rc1",
+    "version": "0.1.0-rc2",
     "main": "./eslint-config.js",
     "scripts": {
         "publish": "npm publish"

@@ -1,6 +1,6 @@
 {
     "name": "@youwol/prettier-config",
-    "version": "0.1.0-rc1",
+    "version": "0.1.0-rc2",
     "main": "./prettier-config.json",
     "scripts": {
         "publish": "npm publish"
