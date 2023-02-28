@@ -5,7 +5,7 @@
     "scripts": {
         "publish": "echo Publishing @youwol/prettier-config"
     },
-    "peerDependencies": {
+    "devDependencies": {
         "typescript": "^4.7.4"
     }
 }

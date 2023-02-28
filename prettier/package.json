@@ -2,7 +2,7 @@
     "name": "@youwol/prettier-config",
     "version": "0.0.2",
     "main": "./prettier-config.json",
-    "peerDependencies": {
+    "devDependencies": {
         "prettier": "^2.7.1",
         "prettier-plugin-properties": "^0.2.0"
     },
