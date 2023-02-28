@@ -3,7 +3,7 @@
     "version": "0.0.2",
     "main": "./prettier-config.json",
     "devDependencies": {
-        "prettier": "^2.7.1",
+        "prettier": "^2.8.4",
         "prettier-plugin-properties": "^0.2.0"
     },
     "scripts": {
