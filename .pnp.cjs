@@ -2125,15 +2125,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./jest-preset/",\
           "packageDependencies": [\
             ["@youwol/jest-preset", "workspace:jest-preset"],\
-            ["@tsconfig/node16", "npm:1.0.3"],\
             ["@types/jest", "npm:29.4.0"],\
-            ["@types/node", "npm:18.14.2"],\
             ["@yarnpkg/pnpify", "npm:4.0.0-rc.39"],\
             ["jest", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.4.3"],\
             ["jest-environment-jsdom", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.4.3"],\
             ["jest-junit", "npm:15.0.0"],\
             ["ts-jest", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.0.5"],\
-            ["ts-node", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=f456af"]\
           ],\
           "linkType": "SOFT"\
@@ -2164,6 +2161,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./tsconfig/",\
           "packageDependencies": [\
             ["@youwol/tsconfig", "workspace:tsconfig"],\
+            ["@tsconfig/node16", "npm:1.0.3"],\
+            ["@types/node", "npm:18.14.2"],\
+            ["ts-node", "virtual:ffbfe12bdcbca9addb94d25fcfe97ed49dcb78deaf7ce472fec0dc17f714d3e959a3b8ec500a643d459874387023e74d5688e45b33126c01ffd589224c12890d#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=f456af"]\
           ],\
           "linkType": "SOFT"\
@@ -7389,10 +7389,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:10.9.1", {\
-          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-af3c30906a/0/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
+        ["virtual:ffbfe12bdcbca9addb94d25fcfe97ed49dcb78deaf7ce472fec0dc17f714d3e959a3b8ec500a643d459874387023e74d5688e45b33126c01ffd589224c12890d#npm:10.9.1", {\
+          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-6b138e9db3/0/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
           "packageDependencies": [\
-            ["ts-node", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:10.9.1"],\
+            ["ts-node", "virtual:ffbfe12bdcbca9addb94d25fcfe97ed49dcb78deaf7ce472fec0dc17f714d3e959a3b8ec500a643d459874387023e74d5688e45b33126c01ffd589224c12890d#npm:10.9.1"],\
             ["@cspotcode/source-map-support", "npm:0.8.1"],\
             ["@swc/core", null],\
             ["@swc/wasm", null],\
