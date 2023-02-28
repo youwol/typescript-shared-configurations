@@ -5,7 +5,7 @@
     "scripts": {
         "publish": "npm publish"
     },
-    "devDependencies": {
+    "dependencies": {
         "typescript": "^4.9.5"
     },
     "stableVersion": "0.0.2"

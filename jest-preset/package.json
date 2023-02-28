@@ -6,7 +6,7 @@
         "build": "rm -r ./dist ; yarn pnpify tsc && cp package.json README.md ./dist/ && touch ./dist/.keep",
         "publish": "yarn build && cd ./dist && npm publish"
     },
-    "devDependencies": {
+    "dependencies": {
         "@tsconfig/node16": "^1.0.3",
         "@types/jest": "^29.4.0",
         "@types/node": "^18.14.2",
