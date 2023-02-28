@@ -1,11 +1,12 @@
 {
     "name": "@youwol/tsconfig",
-    "version": "0.0.2",
+    "version": "0.1.0-rc1",
     "description": "Base TSConfig for Youwol projects",
     "scripts": {
         "publish": "npm publish"
     },
     "devDependencies": {
         "typescript": "^4.9.5"
-    }
+    },
+    "stableVersion": "0.0.2"
 }

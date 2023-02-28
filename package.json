@@ -1,6 +1,6 @@
 {
     "name": "@youwol/linters-config",
-    "version": "0.0.4",
+    "version": "0.1.0-rc1",
     "private": true,
     "license": "MIT",
     "packageManager": "yarn@3.2.2",
@@ -13,5 +13,6 @@
     "scripts": {
         "publish": "yarn workspaces foreach run publish",
         "versions": "yarn workspaces foreach version"
-    }
+    },
+    "stableVersion": "0.0.4"
 }
