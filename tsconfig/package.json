@@ -2,9 +2,6 @@
     "name": "@youwol/tsconfig",
     "version": "0.1.0-rc3",
     "description": "Base TSConfig for Youwol projects",
-    "scripts": {
-        "publish": "npm publish"
-    },
     "dependencies": {
         "@tsconfig/node16": "^1.0.3",
         "@types/node": "^18.14.2",

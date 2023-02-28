@@ -2,9 +2,6 @@
     "name": "@youwol/eslint-config",
     "version": "0.1.0-rc3",
     "main": "./eslint-config.js",
-    "scripts": {
-        "publish": "npm publish"
-    },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^5.54.0",
         "@typescript-eslint/parser": "^5.54.0",

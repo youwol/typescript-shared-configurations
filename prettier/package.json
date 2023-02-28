@@ -2,9 +2,6 @@
     "name": "@youwol/prettier-config",
     "version": "0.1.0-rc3",
     "main": "./prettier-config.json",
-    "scripts": {
-        "publish": "npm publish"
-    },
     "dependencies": {
         "prettier": "^2.8.4",
         "prettier-plugin-properties": "^0.2.0"
