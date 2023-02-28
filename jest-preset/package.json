@@ -1,6 +1,6 @@
 {
     "name": "@youwol/jest-preset",
-    "version": "0.1.0-rc2",
+    "version": "0.1.0-rc3",
     "main": "./jest-preset.js",
     "scripts": {
         "build": "rm -r ./dist && yarn pnpify tsc && cp package.json README.md ./dist/ && touch ./dist/.keep",
