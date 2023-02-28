@@ -12,6 +12,6 @@
     ],
     "scripts": {
         "publish": "yarn workspaces foreach run publish",
-        "version": "yarn workspaces foreach version"
+        "versions": "yarn workspaces foreach version"
     }
 }

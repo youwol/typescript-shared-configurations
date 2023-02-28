@@ -3,7 +3,7 @@
     "version": "0.0.2",
     "description": "Base TSConfig for Youwol projects",
     "scripts": {
-        "publish": "echo Publishing @youwol/prettier-config"
+        "publish": "npm publish"
     },
     "devDependencies": {
         "typescript": "^4.9.5"
