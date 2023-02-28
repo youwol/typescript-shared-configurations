@@ -1,10 +1,9 @@
 {
     "name": "@youwol/prettier-config",
-    "version": "0.1.0-rc5",
+    "version": "0.1.0",
     "main": "./prettier-config.json",
     "dependencies": {
         "prettier": "^2.8.4",
         "prettier-plugin-properties": "^0.2.0"
-    },
-    "stableVersion": "0.0.2"
+    }
 }
