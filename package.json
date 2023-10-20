@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "license": "MIT",
-    "packageManager": "yarn@3.2.2",
+    "packageManager": "yarn@3.6.4",
     "workspaces": [
         "eslint",
         "prettier",
