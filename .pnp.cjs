@@ -2090,8 +2090,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./prettier/",\
           "packageDependencies": [\
             ["@youwol/prettier-config", "workspace:prettier"],\
-            ["prettier", "npm:2.8.4"],\
-            ["prettier-plugin-properties", "npm:0.2.0"]\
+            ["prettier", "npm:3.0.3"],\
+            ["prettier-plugin-properties", "virtual:5019cc3c3225063505fe939f0d896a3f058fde81f48b09426f07c7ebc41c93d1d49396c9f1ba7fbdc96cbbdad96fa3e80efd1ab4d5437f19e5a0979882bd91c6#npm:0.3.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -6442,20 +6442,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:2.8.4", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-2.8.4-ba64a351d1-c173064bf3.zip/node_modules/prettier/",\
+        ["npm:3.0.3", {\
+          "packageLocation": "./.yarn/unplugged/prettier-npm-3.0.3-fced695dae/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:2.8.4"]\
+            ["prettier", "npm:3.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["prettier-plugin-properties", [\
-        ["npm:0.2.0", {\
-          "packageLocation": "./.yarn/cache/prettier-plugin-properties-npm-0.2.0-a65481ed5f-0109ca2a58.zip/node_modules/prettier-plugin-properties/",\
+        ["npm:0.3.0", {\
+          "packageLocation": "./.yarn/cache/prettier-plugin-properties-npm-0.3.0-b09fc9fe07-4516d3c68b.zip/node_modules/prettier-plugin-properties/",\
           "packageDependencies": [\
-            ["prettier-plugin-properties", "npm:0.2.0"],\
-            ["dot-properties", "npm:1.0.1"]\
+            ["prettier-plugin-properties", "npm:0.3.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:5019cc3c3225063505fe939f0d896a3f058fde81f48b09426f07c7ebc41c93d1d49396c9f1ba7fbdc96cbbdad96fa3e80efd1ab4d5437f19e5a0979882bd91c6#npm:0.3.0", {\
+          "packageLocation": "./.yarn/__virtual__/prettier-plugin-properties-virtual-9b8f03b400/0/cache/prettier-plugin-properties-npm-0.3.0-b09fc9fe07-4516d3c68b.zip/node_modules/prettier-plugin-properties/",\
+          "packageDependencies": [\
+            ["prettier-plugin-properties", "virtual:5019cc3c3225063505fe939f0d896a3f058fde81f48b09426f07c7ebc41c93d1d49396c9f1ba7fbdc96cbbdad96fa3e80efd1ab4d5437f19e5a0979882bd91c6#npm:0.3.0"],\
+            ["@types/prettier", null],\
+            ["dot-properties", "npm:1.0.1"],\
+            ["prettier", "npm:3.0.3"]\
+          ],\
+          "packagePeers": [\
+            "@types/prettier",\
+            "prettier"\
           ],\
           "linkType": "HARD"\
         }]\
