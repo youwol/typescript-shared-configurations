@@ -54,7 +54,7 @@ const jestPreset = {
     testRunner: 'jest-circus',
     testEnvironment: 'jsdom',
     reporters,
-    modulePathIgnorePatterns: ['/dist', '/yw_config', '.template'],
+    modulePathIgnorePatterns: ['<rootDir>/dist', '<rootDir>/yw_config', '<rootDir>/.template'],
     testEnvironmentOptions: { url: youwolJestPresetGlobals.integrationUrl },
     coverageProvider: 'v8',
     collectCoverageFrom: ['./src/lib/**/*.ts', './src/app/**/*.ts'],
