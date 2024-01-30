@@ -7,8 +7,8 @@
         "prepack": "yarn build"
     },
     "devDependencies": {
-        "@yarnpkg/pnpify": "^4.0.0-rc.53",
-        "typescript": "^5.2.2"
+        "@yarnpkg/pnpify": "^4.0.1",
+        "typescript": "^5.3.3"
     },
     "dependencies": {
         "@types/jest": "^29.5.6",
