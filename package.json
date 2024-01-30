@@ -1,6 +1,6 @@
 {
     "name": "@youwol/linters-config",
-    "version": "0.1.0",
+    "version": "1.2.0",
     "private": true,
     "license": "MIT",
     "packageManager": "yarn@4.0.2",
@@ -11,7 +11,7 @@
         "jest-preset"
     ],
     "scripts": {
-        "publish": "yarn workspaces foreach npm publish --access public",
+        "publish": "yarn workspaces foreach --all npm publish --access public",
         "versions": "yarn workspaces foreach version"
     }
 }
