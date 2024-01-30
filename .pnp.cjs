@@ -2132,7 +2132,7 @@ const RAW_RUNTIME_STATE =
           ["jest", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.7.0"],\
           ["jest-junit", "npm:16.0.0"],\
-          ["ts-jest", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.1.1"],\
+          ["ts-jest", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.1.2"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
@@ -7316,17 +7316,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ts-jest", [\
-      ["npm:29.1.1", {\
-        "packageLocation": "../../../../.yarn/berry/cache/ts-jest-npm-29.1.1-04e888e48e-10c0.zip/node_modules/ts-jest/",\
+      ["npm:29.1.2", {\
+        "packageLocation": "../../../../.yarn/berry/cache/ts-jest-npm-29.1.2-22ab85b861-10c0.zip/node_modules/ts-jest/",\
         "packageDependencies": [\
-          ["ts-jest", "npm:29.1.1"]\
+          ["ts-jest", "npm:29.1.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.1.1", {\
-        "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-2c1309aeba/5/.yarn/berry/cache/ts-jest-npm-29.1.1-04e888e48e-10c0.zip/node_modules/ts-jest/",\
+      ["virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.1.2", {\
+        "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-802d970d1f/5/.yarn/berry/cache/ts-jest-npm-29.1.2-22ab85b861-10c0.zip/node_modules/ts-jest/",\
         "packageDependencies": [\
-          ["ts-jest", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.1.1"],\
+          ["ts-jest", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.1.2"],\
           ["@babel/core", null],\
           ["@jest/types", null],\
           ["@types/babel-jest", null],\
