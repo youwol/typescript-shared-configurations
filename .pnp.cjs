@@ -2152,7 +2152,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./prettier/",\
         "packageDependencies": [\
           ["@youwol/prettier-config", "workspace:prettier"],\
-          ["prettier", "npm:3.1.1"],\
+          ["prettier", "npm:3.2.4"],\
           ["prettier-plugin-properties", "virtual:5019cc3c3225063505fe939f0d896a3f058fde81f48b09426f07c7ebc41c93d1d49396c9f1ba7fbdc96cbbdad96fa3e80efd1ab4d5437f19e5a0979882bd91c6#npm:0.3.0"]\
         ],\
         "linkType": "SOFT"\
@@ -6493,10 +6493,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.1.1", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.1.1-072c31ec21/node_modules/prettier/",\
+      ["npm:3.2.4", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.2.4-3ca24592c3/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.1.1"]\
+          ["prettier", "npm:3.2.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6515,7 +6515,7 @@ const RAW_RUNTIME_STATE =
           ["prettier-plugin-properties", "virtual:5019cc3c3225063505fe939f0d896a3f058fde81f48b09426f07c7ebc41c93d1d49396c9f1ba7fbdc96cbbdad96fa3e80efd1ab4d5437f19e5a0979882bd91c6#npm:0.3.0"],\
           ["@types/prettier", null],\
           ["dot-properties", "npm:1.0.1"],\
-          ["prettier", "npm:3.1.1"]\
+          ["prettier", "npm:3.2.4"]\
         ],\
         "packagePeers": [\
           "@types/prettier",\
