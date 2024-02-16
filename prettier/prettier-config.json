@@ -5,7 +5,7 @@
     "trailingComma": "all",
     "overrides": [
         {
-            "files": ["*.yaml", "*.yml"],
+            "files": ["*.yaml", "*.yml", "*.md", "*.mkd", "*.mkdn","*.mkdown", "*.markdown"],
             "options": {
                 "tabWidth": 2
             }
