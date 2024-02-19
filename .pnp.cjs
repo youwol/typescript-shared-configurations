@@ -1555,10 +1555,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/jest", [\
-      ["npm:29.5.11", {\
-        "packageLocation": "../../../../.yarn/berry/cache/@types-jest-npm-29.5.11-1ede28257d-10c0.zip/node_modules/@types/jest/",\
+      ["npm:29.5.12", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@types-jest-npm-29.5.12-6459b9d012-10c0.zip/node_modules/@types/jest/",\
         "packageDependencies": [\
-          ["@types/jest", "npm:29.5.11"],\
+          ["@types/jest", "npm:29.5.12"],\
           ["expect", "npm:29.7.0"],\
           ["pretty-format", "npm:29.7.0"]\
         ],\
@@ -2126,7 +2126,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./jest-preset/",\
         "packageDependencies": [\
           ["@youwol/jest-preset", "workspace:jest-preset"],\
-          ["@types/jest", "npm:29.5.11"],\
+          ["@types/jest", "npm:29.5.12"],\
           ["@yarnpkg/pnpify", "npm:4.0.1"],\
           ["isomorphic-fetch", "npm:3.0.0"],\
           ["jest", "virtual:67ac72843d6ab3e8a628e89b00a1cf808d0a3fcf49ceff3160de8967d3cc789403a21c76f8c7d76f74c09c4661ae49fef5536ea3f6b8c47f20791e6b19e907aa#npm:29.7.0"],\
@@ -7350,7 +7350,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel-jest", null],\
           ["@types/babel__core", null],\
           ["@types/esbuild", null],\
-          ["@types/jest", "npm:29.5.11"],\
+          ["@types/jest", "npm:29.5.12"],\
           ["@types/jest__types", null],\
           ["@types/typescript", null],\
           ["babel-jest", null],\
