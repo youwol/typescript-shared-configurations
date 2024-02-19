@@ -1499,9 +1499,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@youwol/tsconfig@workspace:tsconfig"
   peerDependencies:
-    "@types/node": ^20.11.10
-    ts-node: 10.9.2
-    tsx: 4.7.0
+    "@types/node": ^20.11.19
+    ts-node: ^10.9.2
+    tsx: ^4.7.1
     typescript: ^5.3.3
   languageName: unknown
   linkType: soft
