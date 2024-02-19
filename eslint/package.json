@@ -1,6 +1,6 @@
 {
     "name": "@youwol/eslint-config",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "main": "./eslint-config.js",
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^7.0.1",
